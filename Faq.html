@@ -1,0 +1,51 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Faq.css">
+    <title>Faq</title>
+</head>
+<body>
+        
+    <div class="nav-bar">
+        <ul>
+            <li><a class="a" href="nav.html">Home</a></li>
+             <li><a class="a" href="Faq.html">Faq</a></li>
+              <li><a class= "a" href="About.html">About</a></li> 
+              <div class="logo">
+        <h2> NavBar</h2>
+        </ul>     
+    </div>
+</header>
+
+    <div class="Faq">
+        <h1> Frequently Asked Questions.</h1>
+    </div>
+
+    <a> Question 1. Will any new mechanics be released on Rocket League?</a>
+    <br></br><br></br>
+    <a> Question 2. What is the closest boost to the Alpha Boost in Rocket League?</a>
+    <br></br><br></br>
+    <a> Question 3. What are the Sun Ray Boost and Hot Rocks Trail?</a>
+    <br></br><br></br><br></br><br></br><br></br><br></br>
+    <a> Background Colors</a>
+<br></br>
+<input type="radio" name="color" value="orange">Orange
+<input type="radio" name="color" value="white">White
+<input type="radio" name="color" value="lightblue">Light Blue
+<input type="radio" name="color" value="pink">Pink
+<input type="radio" name="color" value="lightsteelblue">Default
+
+<script>
+    let radios = document.getElementsByName('color');
+    for(let i=0; i < radios.length; i++) {
+        radios[i].onclick = function() {
+            let target = document.body;
+            target.style.backgroundColor = radios[i].value;
+        }
+    }
+</script>
+    
+</body>
+</html>

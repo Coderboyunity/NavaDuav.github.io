@@ -1,0 +1,119 @@
+body {
+	background-color: lightsteelblue;
+	
+
+}
+.logo{
+    margin-left: 68%;
+    float: right;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+color: ghostwhite;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+.a:hover {
+    color: lightseagreen;
+    
+     transition: .8s ease;
+}
+.welcome {
+   margin-left: 47%;
+   margin-top: 45px;
+   font-family: 'Black 900 Italics-serif', sans-serif;
+}
+.vid {
+	margin-left: 25px;
+}
+.logo {
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+}
+body {
+	background-color: lightsteelblue;
+}
+.logo{
+    margin-left: 68%;
+    float: right;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    align-items: center;
+    background-color: lightslategrey;
+    padding: 20px;
+    border: 3px solid white;
+    height: 21px;
+
+    
+
+}
+li {
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 470;
+    margin-top: 15px;
+}
+.a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: ghostwhite;
+  transform-origin: bottom right;
+  transition: transform 0.60s ease-out;
+}
+
+.a:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.page {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 470;
+}
+
+
+
+.a:hover {
+    color: lightseagreen;
+    
+     transition: .8s ease;
+}
+.welcome {
+   margin-left: 47%;
+   margin-top: 45px;
+}
+
+
+
+
+
+	
